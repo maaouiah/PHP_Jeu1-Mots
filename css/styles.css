@@ -1,0 +1,210 @@
+/*********************GENERAL STYLE************************/
+body{
+	margin:0;
+	padding:0;
+        text-align:center;
+	/*background:url(../medias/bg-body-x.png) repeat-x;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.bg
+{
+   background-image:url(../medias/bg-accc.jpg);
+   width: 275px;
+   height: 169px;
+}
+
+div#contenaire
+{
+	width:1002px;
+        min-height: 500px;
+        _height: 500px;
+	margin:auto;
+	background:url(../medias/bg-body-x.png) repeat-y;
+}
+.header{
+    width: 905px;
+    height: 103px;
+    margin: auto;
+    border-bottom: #B5E026 1px solid;
+}
+    .logo
+    {
+    width:169px;
+    height:44px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left:-430px;
+    }
+    .righttopzone{
+        float: right;
+        height: 42px;
+        width: 580px;
+        padding-top: 20px;
+        color: #7E7E7E;
+        font-size: 12px;
+    }
+    .righttopzone input{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        border: 0px;
+    }
+    .rightbottomzone{
+        width: 905px;
+        height: 41px;
+        clear: both;
+        background: url(../medias/ombreMenuHaut.png) repeat-x;
+    }
+    .rightbottomzone_bgRight{
+        width: 905px;
+        height: 41px;
+        background: url(../medias/ombreLeftMenu.png) left no-repeat;
+    }
+        .bandemenu{float:right; width: 97px; height: 41px; background: url(../medias/menu-left.png)}
+	   /* menu */	
+.menu { float:right; padding:0;min-width: 300px; _width: 300px; background: url(../medias/menu_haut.png); }
+.menu ul { padding:0; margin:0; list-style:none; border:0; }
+.menu ul li { float:left; margin:0; padding:1px 1px 0 0; border:0; }
+.menu ul li a { text-align:center; float:left; margin:0; padding:13px 10px; color:#fff; font:normal 12px Arial, Helvetica, sans-serif; text-decoration:none; }
+.menu ul li a:hover { color:#171717; text-decoration:underline; }
+.menu ul li a.active { color:#171717; text-decoration:underline; }
+.banner_accueil{
+    width: 905px;
+    height: 172px;
+    clear: both;
+    margin: auto;
+    background: url(../medias/header.png) no-repeat;
+    margin-top: 3px;
+}
+.banner_web{
+    width: 905px;
+    height: 172px;
+    clear: both;
+    margin: auto;
+    background: url(../medias/slide2.jpg) no-repeat;
+    margin-top: 3px;
+}
+.banner_graphique{
+    width: 905px;
+    height: 172px;
+    clear: both;
+    margin: auto;
+    background: url(../medias/slide3.jpg) no-repeat;
+    margin-top: 3px;
+}
+.banner_contact{
+    width: 905px;
+    height: 172px;
+    clear: both;
+    margin: auto;
+    background: url(../medias/slide4.jpg) no-repeat;
+    margin-top: 3px;
+}
+.banner_reference{
+    width: 905px;
+    height: 172px;
+    clear: both;
+    margin: auto;
+    background: url(../medias/slide5.jpg) no-repeat;
+    margin-top: 3px;
+}
+.contenu
+{
+background:url(../medias/ombrecontenu.png) top center no-repeat;
+margin-right:15px;
+width:905px;
+margin: auto;
+min-height:450px;
+clear: both;
+}
+
+
+
+/*footer*/
+div#footer
+{
+background:url(../medias/footer.png) no-repeat;
+width:908px;
+height:49px;
+margin:auto;
+text-align:center;
+font:"Trebuchet MS", Verdana;
+font-size:12px;
+color:#FFFFFF;
+clear:both;}
+
+.droite
+{
+	float: right;
+	width: 240px;
+	padding-right:15px;
+	text-align:left;
+    color: #333;
+	font-family: arial;
+	font-size: 11px;
+	line-height:22px;
+}
+.gauche
+{
+	float: left;
+	width: 630px;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+
+
+.style_ecriture
+{
+	text-align:left;
+	padding-top:7px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:15px;
+    color: #333;
+	font-family: arial;
+	font-size: 13px;
+	line-height:22px;
+}
+.right2
+{
+	text-align:left;
+	padding-top:15px;
+	padding-left:20px;
+	color:#5f5f5f;
+	font-family: arial;
+	font-size: 14px;
+}
+.style_titre
+{
+	text-align:left;
+	padding-top:5px;
+	padding-left:20px;
+	padding-bottom:10px;
+	color:#2358A4;
+	font-family: arial;
+	font-size: 18px;
+}
+/********** contact form **********/
+#contactform { margin:0; padding:5px 10px;}
+#contactform * { color:#F00;}
+#contactform ol { margin:0; padding:0; list-style:none;}
+#contactform li { margin:0; padding:0; background:none; border:none; display:block;}
+#contactform li.buttons { margin:5px 0 5px 0;}
+#contactform label { margin:0; width:130px; display:block; padding:10px 0; text-align:left; color:#5f5f5f; font: bold 12px Arial, Helvetica, sans-serif; text-transform:capitalize; float:left;}
+#contactform label span { color:#F00;}
+#contactform input.text { width:300px; border:1px solid #dcdcdc; margin:10px 0; padding:5px 2px; height:16px; background:#fff; float:left;}
+#contactform input.tmp { width:80px; border:1px solid #dcdcdc; margin:10px 0; padding:5px 2px; height:16px; background:#fff; float:right;}
+#contactform password.text { width:300px; border:1px solid #dcdcdc; margin:10px 0; padding:5px 2px; height:16px; background:#fff; float:left;}
+#contactform textarea { width:440px; border:1px solid #dcdcdc; margin:10px 0; padding:2px; background:#fff; float:left;}
+#contactform li.buttons input { padding:3px 0 3px 110px; margin:0; border:0; color:#FFF; float:left;}
+
+
+/*.tab
+{
+    border-collapse: collapse;
+}
+.tab td
+{
+    border: 1px solid black;
+}*/
